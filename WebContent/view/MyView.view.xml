@@ -1,0 +1,8 @@
+<mvc:View 
+xmlns:mvc="sap.ui.core.mvc" 
+xmlns="sap.m">
+<!-- comment -->
+   <Page>
+       <Button text="Register"/>
+   </Page>
+</mvc:View>
