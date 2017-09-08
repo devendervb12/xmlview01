@@ -1,8 +1,22 @@
-<mvc:View 
-xmlns:mvc="sap.ui.core.mvc" 
-xmlns="sap.m">
+<mvc:View xmlns:mvc="sap.ui.core.mvc" 
+xmlns:core="sap.ui.core"
+xmlns="sap.m" xmlns:f="sap.ui.layout.form">
 <!-- comment -->
    <Page>
-       <Button text="Register"/>
+       <content>
+      		 <f:SimpleForm>
+      		       <f:content>
+      		           <Label text="Employee Name"/>
+      		           <Input/>
+      		           <Label text="Department"/>
+      		           <ComboBox>
+      		              <items>
+      		                 <core:Item text="SAP"/>
+      		                 <core:Item text="ORACLE"/>
+      		              </items>
+      		           </ComboBox>
+      		       </f:content>
+      		 </f:SimpleForm>
+       </content>
    </Page>
 </mvc:View>
